@@ -8,7 +8,7 @@ import { validationErrors } from "../helper/errors.js";
 import { Category } from "../models/Category.js";
 import TryCatch from "../middlewares/TryCatch.js";
 import { sanitize } from "../utils/sanitize.js";
-import { Subcategory } from "../models/SubCategory.js";
+import { Subcategory } from "../models/Subcategory.js";
 
 // ============================================  Create Category  ============================================ //
 export const createCategory = TryCatch(async (req, res) => {
